@@ -68,3 +68,21 @@ li {
     border-radius: 4px;
     border-left: 4px solid;
 }
+
+li.low {
+    border-left-color: #007bff;
+}
+
+li.medium {
+    border-left-color: #ffc107;
+}
+
+li.high {
+    border-left-color: #dc3545;
+}
+
+li button {
+    background-color: #dc3545;
+    padding: 5px 10px;
+    font-size: large;
+}

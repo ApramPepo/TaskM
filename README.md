@@ -21,10 +21,10 @@ A task manager app made using Vanilla Web component (HTML, CSS, JS) to practice 
 </tr>
 <tr>
 <td>Desktop Responsive Design</td>
-<td>⚒️</td>
+<td>✅</td>
 </tr>
 <tr>
 <td>Mobile Responsive Design</td>
-<td>❌</td>
+<td>✅</td>
 </tr>
 </table>
