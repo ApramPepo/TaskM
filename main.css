@@ -22,3 +22,49 @@ h1 {
     gap: 10px;
     margin-bottom: 3ch;
 }
+
+input {
+    flex: 1;
+    padding: 12px;
+    font-size: large;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+select,
+button {
+    padding: 10px;
+    font-size: large;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border-left: 4px solid;
+}
