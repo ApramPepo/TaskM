@@ -26,9 +26,9 @@ class Task {
 
 const taskManager = new Task();
 const taskForm = document.querySelector('.taskForm');
-const taskName = document.querySelector('#taskName');
-const taskPriority = document.querySelector('#taskPriority');
-const tasklist = document.querySelector('.taskList');
+const taskName = document.getElementById('taskName');
+const taskPriority = document.getElementById('taskPriority');
+const tasklist = document.querySelector('.tasklist');
 
 function buildTasks() {
     tasklist.innerHTML = "";
@@ -43,5 +43,16 @@ function buildTasks() {
         tasklist.appendChild(li);
     });
 }
+
+taskForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const name = taskName.value.trim();
+    const priority = taskPriority.value;
+    if (name) {
+        taskManager.addTask(name, priority);
+        buildTasks();
+        taskForm.reset();
+    }
+});
 
 buildTasks();

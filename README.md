@@ -9,14 +9,14 @@ A task manager app made using Vanilla Web component (HTML, CSS, JS) to practice 
 </tr>
 <tr>
 <td>Add task name and Task Priority</td>
-<td>⚒️</td>
+<td>✅</td>
 </tr>
 <tr>
 <td>Ability to delete a task</td>
-<td>❌</td>
+<td>⚒️</td>
 </tr>
 <tr>
 <td>Display Task list</td>
-<td>❌</td>
+<td>✅</td>
 </tr>
 </table>
