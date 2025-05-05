@@ -55,4 +55,12 @@ taskForm.addEventListener("submit", (e) => {
     }
 });
 
+tasklist.addEventListener('click', (e) => {
+    if (e.target.tagName === 'BUTTON') {
+        const id = Number(e.target.dataset.id);
+        taskManager.deleteTask(id);
+        buildTasks();
+    }
+});
+
 buildTasks();

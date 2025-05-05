@@ -13,10 +13,18 @@ A task manager app made using Vanilla Web component (HTML, CSS, JS) to practice 
 </tr>
 <tr>
 <td>Ability to delete a task</td>
-<td>⚒️</td>
+<td>✅</td>
 </tr>
 <tr>
 <td>Display Task list</td>
 <td>✅</td>
+</tr>
+<tr>
+<td>Desktop Responsive Design</td>
+<td>⚒️</td>
+</tr>
+<tr>
+<td>Mobile Responsive Design</td>
+<td>❌</td>
 </tr>
 </table>
