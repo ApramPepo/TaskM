@@ -32,3 +32,22 @@ A task manager app made using Vanilla Web component (HTML, CSS, JS) to practice 
 <td>✅</td>
 </tr>
 </table>
+<hr>
+<table>
+<tr>
+<th>Tech used</th>
+</tr>
+<tr><td>HTML</td><tr>
+<tr><td>CSS</td><tr>
+<tr><td>JavaScript</td><tr>
+<tr><td>JSON</td><tr>
+</table>
+<hr>
+<h1>Practices used: </h1>
+<ul>
+<li>OOP: Encapsulation</li>
+<li>Classes</li>
+<li>Arrays</li>
+<li>Event Handling</li>
+<li>DOM Manipulation</li>
+</ul>
