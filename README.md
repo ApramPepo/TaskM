@@ -27,4 +27,8 @@ A task manager app made using Vanilla Web component (HTML, CSS, JS) to practice 
 <td>Mobile Responsive Design</td>
 <td>✅</td>
 </tr>
+<tr>
+<td>Add cache storage</td>
+<td>⚒️</td>
+</tr>
 </table>

@@ -1,8 +1,18 @@
 class Task {
     #task //Private field
+    #storagekey = "task";
 
     constructor() {
-        this.#task = [];
+        this.#task = this.#loadtask();
+    }
+
+    #loadtask() {
+        const taskJ = localStorage.getItem(this.#storagekey);
+        return taskJ ? JSON.parse(taskJ) : [];
+    }
+
+    #savetask() {
+        localStorage.setItem(this.#storagekey, JSON.stringify(this.#task));
     }
 
     addTask(name, priority) {
