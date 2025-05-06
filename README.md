@@ -29,6 +29,6 @@ A task manager app made using Vanilla Web component (HTML, CSS, JS) to practice 
 </tr>
 <tr>
 <td>Add cache storage</td>
-<td>⚒️</td>
+<td>✅</td>
 </tr>
 </table>

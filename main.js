@@ -22,11 +22,13 @@ class Task {
             priority
         };
         this.#task.push(task);
+        this.#savetask();
         return task;
     }
 
     deleteTask(id) {
         this.#task = this.#task.filter(task => task.id !== id);
+        this.#savetask();
     }
 
     getTask() {
