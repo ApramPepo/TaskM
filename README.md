@@ -50,4 +50,6 @@ A task manager app made using Vanilla Web component (HTML, CSS, JS) to practice 
 <li>Arrays</li>
 <li>Event Handling</li>
 <li>DOM Manipulation</li>
+<li>Private field</li>
+<li>Web Storage</li>
 </ul>
